@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MENU RESPONSIVE</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <label for="toggle"> <img class="MENU" src="LOGOOO.jpeg" alt="MENU"> </label>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#">INICIO</a></li>
+                <li><a href="#">SERVICIOS</a></li>
+                <li><a href="#">PRECIOS</a>
+                    <ul>
+                        <li><a href="#">Cuidados</a></li>
+                        <li><a href="#">Materiales</a></li>
+                        <li><a href="#">Plantas</a></li>
+                        <li><a href="#">Flores</a>
+                            <ul>
+                                <li><a href="#">Tipo A</a></li>
+                                <li><a href="#">Tipo B</a></li>
+                                <li><a href="#">Tipo C</a></li>
+                                <li><a href="#">Tipo D</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">BLOG</a>
+                    <ul>
+                        <li><a href="#">Noticias</a></li>
+                        <li><a href="#">Clima</a></li>
+                        <li><a href="#">Fauna</a></li>
+                        <li><a href="#">Restaurantes</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<hr>
+<section>
+  <div class="slider-container">
+        <div class="slider">
+            <div class="slide"><img src="FOTO 1.png" alt="Imagen 1"></div>
+            <div class="slide"><img src="FOTO 2.png" alt="Imagen 2"></div>
+            <div class="slide"><img src="FOTO 3.png" alt="Imagen 3"></div>
+            </div>
+        <button class="prev-btn">&#10094;</button>
+        <button class="next-btn">&#10095;</button>
+        <div class="dots-container">
+            </div>
+    </div>
+</section>
+
+<hr>
+<section>
+ 
+    <section class="galeria">
+        <img src="FOTO 4.png" alt="foto1" class="miniatura">
+        <img src="FOTO 5.png" alt="foto2" class="miniatura">
+        <img src="foto 7.png" alt="foto3" class="miniatura">
+        <img src="FOTO 6.png" alt="foto4" class="miniatura">
+        <img src="FOTO 3.png" alt="foto5" class="miniatura">
+        <img src="foton 10.jpeg" alt="foto6" class="miniatura">
+    </section>
+
+    <did id="visor" class="visor oculto">
+        <span id="cerrar">&times;</span>
+        <img id="imagenGrande" src="" alt="Imagen ampliada"/>
+    </did>
+
+  
+</section>
+
+<hr>
+<section>
+<section class="noticias-seccion">
+        <h2>Ùltimas Noticias</h2>
+        <article class="noticia">
+             <img src="FOTO 6.png" alt="">
+             <h3>¿BUSCAS EL VESTIDO PERFECTO? ¡VISITANOS! </h3>
+             <p class="resumen">Visita nuestra tienda y descubre lo ultimo en moda, contamos con diversas tallas y precios, te invito a seguirnos en nuestras redes.</p>
+             <a href="https://www.instagram.com/depassarela?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Leer màs</a>
+        </article>
+
+        <article class="noticia">
+            <img src="foton 10.jpeg" alt="">
+            <h3>ALQUILER DE VESTIDOS</h3>
+            <p class="resumen">Tenemos diversos modelos disponibles para todo tipo de ocasion, fiestas de XV, bodas, entre otros eventos, contactanos y visita nuestras redes.</p>
+            <a href="https://www.kfc.com.pe">Leer màs</a>
+        </article>
+
+        <article class="noticia">
+            <img src="foto 11.jpeg" alt="">
+            <h3></h3>
+            <p class="resumen">Este proyecto esta elaborado por la dueña KARINA REY y deseamos que sus experiencias sean inolvidables, agenda tu cita lo mas pronto posible...............</p>
+            <a href="https://www.infobae.com/america/peru/2022/06/13/mundial-qatar-2022-restaurantes-ofreceran-platos-gratis-y-a-mitad-de-precio-si-peru-clasifica/">Leer màs</a>
+        </article>
+    </section>
+
+</section>
+
+<hr>
+<center><section>
+   <main>
+        <h1>¡Contàctanos!</h1>
+        <p>Por favor, completa el siguiente formulario para ponerte en contacto con nosotros</p>
+        <form action="#" method="POST">
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="Tu nombre completo" required autocomplete="name">
+            </div>
+            <div>
+                <label for="email">Correo Electrònico:</label>
+                <input type="email" id="email" placeholder="Tu correo electrònico" required autocomplete="email">
+            </div>
+            <div>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquì" required></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+        <div>
+        <section>
+           <div class="social-icons">
+            <a href="https://es-la.facebook.com/login/device-based/regular/login/" class="Facebook" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/" class="Instagram" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/" class="youtube" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="https://wa.me/966253732/" class="whatsapp" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+        </section>
+    </main>
+</section></center>
+   <script src="script.js"></script>
+
+<head>
+  <footer>
+    <div class="ubicacion">
+      <h3>Ubicación</h3>
+      <p>📍Calle José Aguilar Segura Edif. 3 ofic. 203, Surco</p>
+      <!-- Mapa opcional con Google Maps -->
+      <iframe 
+         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d487.5402261405351!2d-76.9848941!3d-12.1584803!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105b84705bad7d3%3A0x3a10fedcb3f30788!2sR2R7%2BJXF%2C%20Lima%2015056!5e0!3m2!1sen!2spe!4v1747326501400!5m2!1sen!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></src=>
+        width="100%" 
+        height="200" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy">
+      </iframe>
+    </div>
+  </footer>
+</body>
+</html>
+  </center>
+</body>
+</html>
+
+
